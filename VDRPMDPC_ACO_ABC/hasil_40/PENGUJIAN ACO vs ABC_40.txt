@@ -1,0 +1,129 @@
+PENGUJIAN ACO vs ABC | VDRPMDPC Semi-Urban_40
+=============================================================
+Pelanggan: 40 | Matriks: 41x41 | Total demand: 203 kg
+Layak kapasitas drone: 34/40 (85.00%), belum tentu layak baterai
+K=1, M=1 (sortie berurutan) | Baterai: 1080 s
+Kecepatan van/drone: 40/60 km/jam [ASUMSI kode asal]
+Populasi: 20, 50, 100 | Iterasi: 100 | Run: 10
+Fitness=1/Objective; pemenang berdasarkan mean objective TERKECIL.
+
+--- POPULASI 20 ---
+ACO | pop= 20 | run= 1 | obj=   13241.80 s | fitness=0.0000755184 | komputasi=  0.7712 s
+ABC | pop= 20 | run= 1 | obj=   14801.22 s | fitness=0.0000675620 | komputasi=  0.2099 s
+ACO | pop= 20 | run= 2 | obj=   13290.50 s | fitness=0.0000752417 | komputasi=  0.2704 s
+ABC | pop= 20 | run= 2 | obj=   14826.32 s | fitness=0.0000674476 | komputasi=  0.0714 s
+ACO | pop= 20 | run= 3 | obj=   13305.80 s | fitness=0.0000751552 | komputasi=  0.4247 s
+ABC | pop= 20 | run= 3 | obj=   15273.13 s | fitness=0.0000654745 | komputasi=  0.0608 s
+ACO | pop= 20 | run= 4 | obj=   13358.69 s | fitness=0.0000748576 | komputasi=  0.3452 s
+ABC | pop= 20 | run= 4 | obj=   14257.50 s | fitness=0.0000701385 | komputasi=  0.0668 s
+ACO | pop= 20 | run= 5 | obj=   13264.40 s | fitness=0.0000753898 | komputasi=  0.2749 s
+ABC | pop= 20 | run= 5 | obj=   14593.40 s | fitness=0.0000685241 | komputasi=  0.0447 s
+ACO | pop= 20 | run= 6 | obj=   13552.30 s | fitness=0.0000737882 | komputasi=  0.2435 s
+ABC | pop= 20 | run= 6 | obj=   14354.90 s | fitness=0.0000696626 | komputasi=  0.0412 s
+ACO | pop= 20 | run= 7 | obj=   13381.30 s | fitness=0.0000747312 | komputasi=  0.2955 s
+ABC | pop= 20 | run= 7 | obj=   15342.55 s | fitness=0.0000651782 | komputasi=  0.0432 s
+ACO | pop= 20 | run= 8 | obj=   13335.40 s | fitness=0.0000749884 | komputasi=  0.2386 s
+ABC | pop= 20 | run= 8 | obj=   14970.72 s | fitness=0.0000667971 | komputasi=  0.0394 s
+ACO | pop= 20 | run= 9 | obj=   13329.00 s | fitness=0.0000750244 | komputasi=  0.2280 s
+ABC | pop= 20 | run= 9 | obj=   15248.50 s | fitness=0.0000655802 | komputasi=  0.0315 s
+ACO | pop= 20 | run=10 | obj=   13110.49 s | fitness=0.0000762748 | komputasi=  0.2300 s
+ABC | pop= 20 | run=10 | obj=   15162.33 s | fitness=0.0000659529 | komputasi=  0.0404 s
+
+--- POPULASI 50 ---
+ACO | pop= 50 | run= 1 | obj=   13209.30 s | fitness=0.0000757042 | komputasi=  0.5587 s
+ABC | pop= 50 | run= 1 | obj=   14456.50 s | fitness=0.0000691730 | komputasi=  0.0928 s
+ACO | pop= 50 | run= 2 | obj=   13355.19 s | fitness=0.0000748773 | komputasi=  0.5521 s
+ABC | pop= 50 | run= 2 | obj=   14463.39 s | fitness=0.0000691401 | komputasi=  0.0879 s
+ACO | pop= 50 | run= 3 | obj=   13267.80 s | fitness=0.0000753704 | komputasi=  0.5444 s
+ABC | pop= 50 | run= 3 | obj=   14424.00 s | fitness=0.0000693289 | komputasi=  0.0937 s
+ACO | pop= 50 | run= 4 | obj=   13323.79 s | fitness=0.0000750537 | komputasi=  0.5321 s
+ABC | pop= 50 | run= 4 | obj=   13813.90 s | fitness=0.0000723909 | komputasi=  0.0807 s
+ACO | pop= 50 | run= 5 | obj=   13135.60 s | fitness=0.0000761290 | komputasi=  0.5177 s
+ABC | pop= 50 | run= 5 | obj=   14580.52 s | fitness=0.0000685847 | komputasi=  0.0878 s
+ACO | pop= 50 | run= 6 | obj=   13183.30 s | fitness=0.0000758535 | komputasi=  0.5256 s
+ABC | pop= 50 | run= 6 | obj=   14480.99 s | fitness=0.0000690561 | komputasi=  0.0968 s
+ACO | pop= 50 | run= 7 | obj=   13141.90 s | fitness=0.0000760925 | komputasi=  0.5644 s
+ABC | pop= 50 | run= 7 | obj=   14865.20 s | fitness=0.0000672712 | komputasi=  0.0868 s
+ACO | pop= 50 | run= 8 | obj=   13066.30 s | fitness=0.0000765328 | komputasi=  0.5466 s
+ABC | pop= 50 | run= 8 | obj=   14547.43 s | fitness=0.0000687407 | komputasi=  0.0835 s
+ACO | pop= 50 | run= 9 | obj=   13352.49 s | fitness=0.0000748924 | komputasi=  0.5167 s
+ABC | pop= 50 | run= 9 | obj=   14637.43 s | fitness=0.0000683180 | komputasi=  0.0854 s
+ACO | pop= 50 | run=10 | obj=   13210.39 s | fitness=0.0000756980 | komputasi=  0.5174 s
+ABC | pop= 50 | run=10 | obj=   14531.13 s | fitness=0.0000688178 | komputasi=  0.0841 s
+
+--- POPULASI 100 ---
+ACO | pop=100 | run= 1 | obj=   13212.63 s | fitness=0.0000756852 | komputasi=  0.9721 s
+ABC | pop=100 | run= 1 | obj=   14277.83 s | fitness=0.0000700387 | komputasi=  0.1636 s
+ACO | pop=100 | run= 2 | obj=   13303.90 s | fitness=0.0000751659 | komputasi=  0.9899 s
+ABC | pop=100 | run= 2 | obj=   13750.73 s | fitness=0.0000727234 | komputasi=  0.1587 s
+ACO | pop=100 | run= 3 | obj=   13198.59 s | fitness=0.0000757657 | komputasi=  0.9989 s
+ABC | pop=100 | run= 3 | obj=   14630.75 s | fitness=0.0000683492 | komputasi=  0.1536 s
+ACO | pop=100 | run= 4 | obj=   13216.60 s | fitness=0.0000756624 | komputasi=  0.9510 s
+ABC | pop=100 | run= 4 | obj=   14797.73 s | fitness=0.0000675779 | komputasi=  0.1505 s
+ACO | pop=100 | run= 5 | obj=   13197.79 s | fitness=0.0000757703 | komputasi=  1.1220 s
+ABC | pop=100 | run= 5 | obj=   13822.53 s | fitness=0.0000723457 | komputasi=  0.1840 s
+ACO | pop=100 | run= 6 | obj=   13357.62 s | fitness=0.0000748636 | komputasi=  1.0489 s
+ABC | pop=100 | run= 6 | obj=   13202.06 s | fitness=0.0000757458 | komputasi=  0.1885 s
+ACO | pop=100 | run= 7 | obj=   12965.40 s | fitness=0.0000771284 | komputasi=  1.2643 s
+ABC | pop=100 | run= 7 | obj=   14174.62 s | fitness=0.0000705486 | komputasi=  0.2236 s
+ACO | pop=100 | run= 8 | obj=   13157.19 s | fitness=0.0000760041 | komputasi=  1.4058 s
+ABC | pop=100 | run= 8 | obj=   12888.50 s | fitness=0.0000775885 | komputasi=  0.2031 s
+ACO | pop=100 | run= 9 | obj=   13280.40 s | fitness=0.0000752989 | komputasi=  1.3140 s
+ABC | pop=100 | run= 9 | obj=   14609.26 s | fitness=0.0000684497 | komputasi=  0.2180 s
+ACO | pop=100 | run=10 | obj=   13025.70 s | fitness=0.0000767713 | komputasi=  1.3837 s
+ABC | pop=100 | run=10 | obj=   14419.70 s | fitness=0.0000693496 | komputasi=  0.1890 s
+
+================ TABEL 1: RATA-RATA 10 RUN ================
+Pop | Obj ACO(s) | Obj ABC(s) | Fitness ACO | Fitness ABC | Komputasi ACO(s) | Komputasi ABC(s)
+ 20 |   13316.97 |   14883.06 | 0.0000750970 | 0.0000672318 |     0.3322 |     0.0649
+ 50 |   13224.61 |   14480.05 | 0.0000756204 | 0.0000690821 |     0.5376 |     0.0879
+100 |   13191.58 |   14057.37 | 0.0000758116 | 0.0000712717 |     1.1451 |     0.1832
+
+================ TABEL 2: KONFIGURASI TERBAIK ================
+Semi-Urban_40 | ACO: populasi 100, mean 13191.58 s | ABC: populasi 100, mean 14057.37 s
+Algoritma unggul (mean objective terkecil): ACO
+Mean fitness adalah rata-rata 1/objective setiap run, BUKAN 1/mean objective.
+
+RUTE TERBAIK ACO (seluruh konfigurasi): pop=100 obj=12965.40 detik
+Van: [0, 33, 35, 20, 30, 29, 22, 25, 26, 39, 23, 34, 40, 13, 12, 9, 3, 4, 7, 1, 16, 14, 17, 32, 18, 6, 5, 28, 27, 0]
+Drone: 33 -> 21 -> 20 | durasi operasi 450.11 s
+Drone: 20 -> 31 -> 30 | durasi operasi 451.43 s
+Drone: 30 -> 36 -> 22 | durasi operasi 503.99 s
+Drone: 25 -> 38 -> 39 | durasi operasi 411.95 s
+Drone: 39 -> 24 -> 23 | durasi operasi 412.91 s
+Drone: 9 -> 11 -> 3 | durasi operasi 405.05 s
+Drone: 7 -> 8 -> 1 | durasi operasi 424.73 s
+Drone: 1 -> 2 -> 16 | durasi operasi 407.33 s
+Drone: 16 -> 15 -> 17 | durasi operasi 455.69 s
+Drone: 18 -> 19 -> 6 | durasi operasi 488.27 s
+Drone: 6 -> 10 -> 5 | durasi operasi 491.93 s
+Drone: 5 -> 37 -> 28 | durasi operasi 766.19 s
+
+RUTE TERBAIK ABC (seluruh konfigurasi): pop=100 obj=12888.50 detik
+Van: [0, 24, 39, 27, 21, 30, 33, 31, 29, 25, 34, 26, 18, 9, 16, 2, 14, 11, 3, 5, 10, 15, 1, 12, 13, 0]
+Drone: 24 -> 23 -> 39 | durasi operasi 431.03 s
+Drone: 39 -> 40 -> 27 | durasi operasi 547.13 s
+Drone: 27 -> 35 -> 21 | durasi operasi 505.67 s
+Drone: 30 -> 38 -> 31 | durasi operasi 633.53 s
+Drone: 31 -> 37 -> 29 | durasi operasi 569.33 s
+Drone: 29 -> 22 -> 34 | durasi operasi 528.95 s
+Drone: 34 -> 20 -> 26 | durasi operasi 606.53 s
+Drone: 26 -> 32 -> 18 | durasi operasi 721.79 s
+Drone: 18 -> 4 -> 16 | durasi operasi 677.33 s
+Drone: 16 -> 7 -> 2 | durasi operasi 619.13 s
+Drone: 2 -> 8 -> 14 | durasi operasi 593.93 s
+Drone: 14 -> 17 -> 11 | durasi operasi 496.25 s
+Drone: 11 -> 6 -> 5 | durasi operasi 481.73 s
+Drone: 5 -> 19 -> 10 | durasi operasi 543.53 s
+Drone: 10 -> 28 -> 1 | durasi operasi 1039.73 s
+Drone: 1 -> 36 -> 13 | durasi operasi 897.53 s
+
+================ KESIMPULAN SINGKAT ================
+Algoritma | Mean Objective terbaik (detik) | Hasil
+ACO       |                      13191.58 | TERBAIK
+ABC       |                      14057.37 | 
+Kesimpulan: ACO
+
+CSV disimpan di folder proyek: hasil_run_40.csv, rekap_40.csv, tabel2_terbaik_40.csv, konvergensi_40.csv
+Laporan TXT: PENGUJIAN ACO vs ABC_40.txt
+Catatan: waktu komputasi bergantung pada spesifikasi komputer dan beban sistem.
